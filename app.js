@@ -35,3 +35,28 @@ console.log('Remainder:', remainder);
 console.log('\nLogical Operations:');
 console.log('Is Positive:', isPositive);
 console.log('Is Even:', isEven);
+
+// Conditional Statements
+
+// if...else
+console.log('\nConditional Statements (if...else):');
+if (number > 0) {
+    console.log('The number is positive.');
+} else if (number < 0) {
+    console.log('The number is negative.');
+} else {
+    console.log('The number is zero.');
+}
+
+// switch
+console.log('\nConditional Statements (switch):');
+switch (number) {
+    case 10:
+        console.log('The number is 10.');
+        break;
+    case 20:
+        console.log('The number is 20.');
+        break;
+    default:
+        console.log('The number is neither 10 nor 20.');
+}
