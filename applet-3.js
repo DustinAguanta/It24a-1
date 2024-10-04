@@ -13,7 +13,8 @@ class DataLogger{
        
     }
  logData(){
-    const time = new Date().toLocaleDateString();
+    const time = new Date().toLocaleString();
+
             this.loggedData.push(time);
             this.updateCardContainer();
         }
